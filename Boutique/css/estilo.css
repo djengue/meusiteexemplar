@@ -1,0 +1,47 @@
+.paleta
+{
+    width: 100%;
+    height:100%;
+   /* position: fixed;*(
+    /*background-color: red;*/
+}
+
+
+
+/*    RESPONSIVE  */
+
+/* Estilo telefone */
+@media screen and (min-width:480px)
+{
+    .paleta
+    {
+        background-color: red;
+    }
+}
+
+/* estilo tablete */
+/*  */
+@media screen and (max-width:758px)
+{
+    .paleta
+    {
+        background-color: black;
+    }
+}
+
+/* estilo Desktop*/
+@media screen and (min-width:758px) and (max-width:1200px)
+{
+    .paleta
+    {
+        background-color:pink;
+    }
+}
+
+@media screen and(min-width:1200px) and (max-width:1980px)
+{
+    .paleta
+    {
+        background-color:palevioletred;
+    }
+}

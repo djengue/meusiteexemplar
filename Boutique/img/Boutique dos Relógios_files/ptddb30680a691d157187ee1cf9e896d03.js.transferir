@@ -1,0 +1,14 @@
+
+						//try
+						{
+							var bdy=document.getElementsByTagName("head")[0];
+							if(typeof bdy=='undefined')bdy=document.body;
+							var gid=document.createElement("grm_sptddb30680a691d157187ee1cf9e896d03_0");
+							var grm_s=document.createElement("script");
+							grm_s.async="true";
+							grm_s.defer="true";
+							grm_s.src="//d3c3cq33003psk.cloudfront.net/opentag-158335-boutiquedosrelogios.js";
+							bdy.appendChild(grm_s);
+						}
+						//catch(e){};
+						
